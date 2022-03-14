@@ -1,0 +1,135 @@
+@font-face {
+    font-family: AwanZaman;
+    src: url(fonts/AwanZaman.ttf) format('truetype');
+}
+
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(219, 219, 219);
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 5px;
+    grid-auto-flow: row;
+    place-items: center;
+}
+
+.box {
+    padding: 10px;
+    grid-column: span 12;
+    width: 90%;
+}
+
+.bw-1 {
+    grid-column: span 1;
+}
+
+.bw-2 {
+    grid-column: span 2;
+}
+
+.bw-3 {
+    grid-column: span 3;
+}
+
+.bw-4 {
+    grid-column: span 4;
+}
+
+.bw-5 {
+    grid-column: span 5;
+}
+
+.bw-6 {
+    grid-column: span 6;
+}
+
+.bw-7 {
+    grid-column: span 7;
+}
+
+.bw-8 {
+    grid-column: span 8;
+}
+
+.bw-9 {
+    grid-column: span 9;
+}
+
+.bw-10 {
+    grid-column: span 10;
+}
+
+.bw-11 {
+    grid-column: span 11;
+}
+
+.bw-12 {
+    grid-column: span 12;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    align-items: center;
+    position: fixed;
+    border: 1px white solid;
+    backdrop-filter: blur(3px);
+}
+
+header p {
+    font-family: AwanZaman, serif;
+    flex: 4;
+    font-size: 35px;
+    padding-left: 5%;
+    color: #2C4CCA;
+}
+
+header nav {
+    flex: 3;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #6D7B93;
+}
+
+header nav li a:hover {
+    color: #3353D1;
+}
+
+header button {
+    height: 40px;
+    width: 120px;
+    font-size: 14px;
+    color: white;
+    background-color: #3353D1;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    box-shadow: rgba(77, 77, 77, 0.18) 0px 5px 5px;
+    transition: all 0.05s ease-in-out;
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: #2d45a3;
+    transform: scale(1.05);
+    box-shadow: rgba(77, 77, 77, 0.18) 0px 6px 10px;
+    transition: all 0.05s ease-in-out;
+}
+
+.main-hero {
+    padding-top: 8%;
+}
