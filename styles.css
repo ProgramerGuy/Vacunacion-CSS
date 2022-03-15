@@ -1,5 +1,12 @@
 @font-face {
     font-family: 'Roboto';
+    src:  url('./webfonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
     src:  url('./webfonts/Roboto-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
@@ -21,6 +28,7 @@ body{
     margin: 0px;
     font-family: 'Roboto', sans-serif;
     background-color: rgb(255, 255, 255);
+    font-weight: 300;
 }
 
 main {
