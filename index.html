@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="5" >
+    <!-- <meta http-equiv="refresh" content="5" > -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vacunación</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="./css/all.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -26,53 +27,70 @@
     <main>
         <!-- Seccion Informativa - Hero -->
         <section class="box main-hero">
-            <article>
+            <article class="bw-7">
                 <h1>Combatir el virus con vacunas</h1>
                 <p>Detengamos esta pandemia matando al vitus con vacunas, no dejes que el virus te infecte a ti o a tu familia</p>
-                <section>
-                    <div>
-                        <figure></figure>
+                <section class="main-hero-data">
+                    <div class="main-hero-icon-message">
+                        <figure><i class="fa fa-shield-check"></i></figure>
                         <p>La mejor proteccion</p>
                     </div>
-                    <div>
-                        <figure></figure>
+                    <div class="main-hero-icon-message">
+                        <figure><i class="fa fa-star"></i></figure>
                         <p>Vacunas selectas</p>
                     </div>
                 </section>
             </article>
-            <div>
-                <img src="" alt="">
+            <div class="main-hero-img-container bw-5">
+                <img src="images/doctor-img.webp" alt="">
             </div>
             <!-- Seccion con informacion de ubicacion y fecha de vacunacion -->
-            <section>
-                <div>
-                    <figure></figure>
+            <section class="main-hero-schedule-container">
+                <div class="main-hero-icon-message">
+                    <figure class="main-color-icon"><i class="fa fa-clock"></i></figure>
                     <p>Agenda tu vacunacion</p>
                 </div>
-                <section>
+                <section class="main-hero-schedule-data">
                     <div>
-                        <figure></figure>
-                        <p>Vacunas selectas</p>
+                        <div class="label-icon">
+                            <figure class="main-color-icon no-shadow"><i class="fa fa-location-dot"></i></figure>
+                            <p>Lugar</p>
+                        </div>
+                        <p class="schedule-info">Mexio DF.</p>
                     </div>
-                    <form action="">
-    
-                    </form>
+                    <div>
+                        <div class="label-icon">
+                            <figure class="main-color-icon no-shadow"><i class="fa fa-calendar"></i></figure>
+                            <p>Fecha</p>
+                        </div>
+                        <p class="schedule-info">08 de Junio del 2022</p>
+                    </div>
+                    <div>
+                        <div class="label-icon">
+                            <figure class="main-color-icon no-shadow"><i class="fa fa-pen"></i></figure>
+                            <p>Tipo de vacuna</p>
+                        </div>
+                        <p class="schedule-info">Moderna</p>
+                    </div>
+                    <div>
+                        <button class="main-button " type="button">Submit</button>
+                    </div>
                 </section>
             </section>
         </section>
         <!-- Seccion de marcas -->
-        <section class="box">
+        <section class="box marcas-container">
             <article>
-                <figure></figure>
-                <figure></figure>
-                <figure></figure>
-                <figure></figure>
+                <figure><img src="images/astra.svg" alt=""></figure>
+                <figure><img src="images/sinovac.png" alt=""></figure>
+                <figure><img src="images/pfizer.png" alt=""></figure>
+                <figure><img src="images/moderna.png" alt=""></figure>
             </article>
         </section>
         <!-- Seccion informativa de vacunacion -->
         <section class="box">
             <article>
-                <h2>Por que deberia vacunarme?</h2>
+                <h2 class="secundary-title">Por que deberia vacunarme?</h2>
                 <p>Por que si</p>
             </article>
             <article>
@@ -99,7 +117,7 @@
                 <img src="" alt="">
             </div>
             <article>
-                <h2>Preparacion antes de vacunarse</h2>
+                <h2 class="secundary-title">Preparacion antes de vacunarse</h2>
                 <p>Test</p>
                 <ul>
                     <li><span>Evitar bebidas alcoholicas</span></li>
@@ -115,8 +133,10 @@
         </section>
         <!-- Seccion de contacto -->
         <section class="box">
-            <h2>Contacto de emergencia</h2>
-            <p>test</p>
+            <article>
+                <h2 class="secundary-title">Contacto de emergencia</h2>
+                <p>test</p>
+            </article>
             <section>
                 <article>
                     <section>
