@@ -20,7 +20,7 @@
 }
 
 @font-face {
-    font-family: Roboto;
+    font-family: AwanZaman;
     src: url('./webfonts/AwanZaman.ttf') format('truetype');
 }
 
@@ -369,4 +369,50 @@ header button:hover {
     justify-content: center;
     align-items: center;
     width: 230px;
+}
+
+.normal-text{
+    font-size: 25px;
+    font-weight: 300;
+    color: #6D7B93;
+}
+
+.info-main-container {
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-box {
+    width: 15%;
+    border: 3px #FAFAFF solid;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.info-box-main {
+    border: none;
+    box-shadow: #e3e8f0 0px 60px 60px !important;
+}
+
+.info-box-title {
+    font-size: 28px;
+    font-weight: 500;
+    color: #1F3E72;
+}
+
+.info-box-text{
+    font-size: 20px;
+    font-weight: 300;
+    color: #6D7B93;
+}
+
+.big-icon {
+    font-size: 25px !important;
+    width: 30px;
+    height: 30px;
 }
