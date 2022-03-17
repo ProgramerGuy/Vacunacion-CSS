@@ -113,10 +113,13 @@ header {
 }
 
 header p {
+    padding-left: 5%;
+}
+
+.main-title {
     font-family: AwanZaman, serif;
     flex: 4;
     font-size: 35px;
-    padding-left: 5%;
     color: #2C4CCA;
 }
 
@@ -388,20 +391,32 @@ header button:hover {
 }
 
 .info-box {
-    width: 18%;
+    width: 17%;
     border: 3px #FAFAFF solid;
     border-radius: 10px;
     padding: 40px;
     height: 400px;
+    transition: all ease-in-out 0.06s;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(3px);
 }
 
 .info-box figure {
     margin-left: 0px !important;
 }
 
-.info-box-main {
-    border: none;
+.info-box:hover {
+    transform: scale(1.03);
+    /* border: none; */
     box-shadow: #e3e8f0 0px 60px 60px !important;
+    transition: all ease-in-out 0.1s;
+}
+
+.info-box:hover .shadow{
+    transform: scale(1.03);
+    /* border: none; */
+    box-shadow: #5b70cf52 0px 15px 30px !important;
+    transition: all ease-in-out 0.1s;
 }
 
 .info-box-title {
@@ -420,4 +435,216 @@ header button:hover {
     font-size: 30px !important;
     width: 40px;
     height: 40px;
+}
+
+.secundary-data-container {
+    margin-top: 6%;
+    height: 90%;
+}
+
+.secundary-data-container article{
+    margin-left: 10%;
+}
+
+.secundary-img-container {
+    height: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 20%, rgba(13,147,224,1) 20%, rgba(41,113,221,1) 100%);
+    width: 50%;
+    /* padding-top: 10%; */
+    position: absolute;
+    left: -6%;
+}
+
+
+.secundary-image {
+    background-image: url(./images/nurse2.webp);
+    width: 100%;
+    display: block;
+    height: 100%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.list-decorated{
+    list-style: none;
+}
+
+.list-decorated li{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 3px #FAFAFF solid;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.list-decorated li:hover {
+    transform: scale(1.03);
+    /* border: none; */
+    box-shadow: #e3e8f0 0px 60px 60px !important;
+    transition: all ease-in-out 0.1s;
+}
+
+.list-decorated li:hover .shadow{
+    transform: scale(1.03);
+    /* border: none; */
+    box-shadow: #5b70cf52 0px 15px 30px !important;
+    transition: all ease-in-out 0.1s;
+}
+
+.list-decorated li span {
+    flex: 2;
+}
+
+.small-icon {
+    width: 8px;
+    height: 8px;
+    font-size: 15px;
+}
+
+.contact-container {
+    right: -5.3%;
+    left: 55.5% !important;
+}
+
+.contact-img {
+    background-image: url(./images/nurse3.webp);
+}
+
+.contact-card-main-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 0px !important;
+    width: 100%;
+
+}
+
+.contact-card-container {
+    border: 3px #FAFAFF solid;
+    width: 40%;
+    flex-grow: 2;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.contact-button {
+    width: 80%;
+    height: 70px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-button-secundary-color:hover {
+    background-color: #b6c6f1;
+}
+
+.contact-button-secundary-color {
+    background-color: #F1F5FF;
+    color:#2E4ECC ;
+}
+
+.contact-title-container {
+    display: flex;
+    align-items: center;
+}
+
+.contact-title-container div span{
+    font-size: 18px;
+}
+
+.contact-title-container div p {
+    font-size: 14px;
+    margin: 0px;
+    margin-top: 14%;
+}
+
+.contact-title-container {
+    margin-bottom: 20px;
+}
+
+.footer-container {
+    background-color: #EEF3FF;
+    position: absolute;
+    width: 100%;
+    right: 0px;
+    margin-top: 50px;
+    height: 50%;
+}
+
+.footer-data-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 5px;
+    grid-auto-flow: row;
+    width: 90%;
+    margin: auto;
+}
+
+.footer-main {
+    height: 80%;
+    margin-top: 30px;
+}
+
+.normal-small-text {
+    font-size: 22px;
+    color: #707E96;
+}
+
+.normal-title-text {
+    color: #1F3E72;
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.footer-main-text {
+    width: 30%;
+}
+
+.footer-menu-container {
+    justify-self: self-end;
+}
+
+.footer-menu-container ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.footer-menu-container ul li{
+    margin-top: 20px;
+}
+
+.footer-menu-container ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #707E96;
+}
+
+.footer-menu-container ul li a:hover{
+    color: #344f80;
+}
+
+.normal-tiny-text {
+    font-size: 18px;
+    color: #707E96;
+}
+
+.term-container a{
+    font-size: 18px;
+    color: #707E96;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.term-container {
+    text-align: right;
+}
+
+.term-container a:hover{
+    color: #344f80;
 }
